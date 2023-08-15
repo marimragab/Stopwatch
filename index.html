@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="icon" type="image/x-icon" href="/stopwatch-solid.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="stopwatch">
+      <h1>Stopwatch</h1>
+      <div class="watch">
+        <p class="time" id="display">00:00:00</p>
+      </div>
+      <div class="icons">
+        <!-- <i class="fa-solid fa-circle-play"></i> -->
+        <button>
+          <i class="fa-solid fa-play" id="play"></i>
+          <i class="fa-solid fa-pause" id="pause"></i>
+        </button>
+
+        <button>
+          <i class="fa-solid fa-rotate-right" id="reset"></i>
+        </button>
+        <!-- <i class="fa-solid fa-stop"></i> -->
+      </div>
+    </div>
+  </body>
+</html>
